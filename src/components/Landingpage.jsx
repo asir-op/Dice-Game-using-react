@@ -1,12 +1,12 @@
 import React from 'react'
-import dices from '../assets/dice/dices.png'
+// import dices from '../assets/dice/dices.png'
 
 function Landingpage({newtoggle}) {
   return (
     <>
     <div className=' w-full h-screen'>
         <div className='w-[1182px] h-[522px] mt-16  m-auto flex items-center'>
-            <img src={dices} alt="dice image" />
+            <img src="dice/dices.png" alt="dice image" />
             <div>
                 <h1 className=' text-[96px]'>DICE GAME</h1>
                 <button onClick={
